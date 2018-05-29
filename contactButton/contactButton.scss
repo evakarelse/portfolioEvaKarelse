@@ -1,0 +1,48 @@
+$px: 4px;
+@keyframes rumble {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX($px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+    75% {
+        transform: translateX(-$px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+#contactButton {
+    position: fixed;
+    background-color: #FFCC1E;
+    height: 64px;
+    width: 64px;
+    bottom: 0;
+    right: 0;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    border-radius: 1000%;
+    background-image: url(./imgs/mailIcon.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+    transition-duration: 200ms;
+    opacity: 0;
+    animation: rumble 150ms;
+    animation-delay: 8s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in-out;
+}
+
+#contactButton:hover {
+    transform: scale(1.1);
+    transform-origin: bottom right;
+    opacity: 1;
+}
