@@ -29,7 +29,7 @@ body {
         width: 100%;
         height: 100%;
         background-color: #f2f2f2;
-        background-image: url(./imgs/verymappy.jpg);
+        background-image: url(./imgs/);
         background-size: cover;
         background-position: right;
         background-repeat: no-repeat;
@@ -86,8 +86,8 @@ body {
       body .swiper-container .swiper-wrapper .nr1 .container p {
         color: white; }
       body .swiper-container .swiper-wrapper .nr1 .container a {
-        background-color: #c82c5e;
-        color: black;
+        background-color: #333333;
+        color: #ffffff;
         font-weight: 400;
         opacity: 1; }
       body .swiper-container .swiper-wrapper .nr2 {
@@ -159,13 +159,13 @@ body {
           transition-duration: 400ms; }
         body section.over .wrapper .container a:hover {
           transform: translateY(-2px);
-          background-color: #c82c5e; }
+          background-color: #C2C2C2; }
       body section.over .wrapper figure {
         grid-column: 2/3;
         grid-row: 1/2;
         width: 100%;
         height: 100%;
-        background-image: url(./imgs/evakarelse.JPG);
+        background-image: url(./imgs/evakarelse2.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

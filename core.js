@@ -123,7 +123,10 @@ function sendMail() {
     var verzender = document.getElementById('mailadres').value;
     var bericht = document.getElementById('bericht').value;
     var berichtClean = bericht.replace(/\n\r?/g, '<br />');
-    emailjs.send("default_service", "1", {
+    console.log(emailjs)
+    emailjs.user_id = "user_twdGHPChVav2MLGzgsBcl"
+    console.log(emailjs.user_id)
+    emailjs.send("gmail", "template_P9t38fo9", {
         from_name: naam,
         message_html: berichtClean,
         verzender: verzender,
