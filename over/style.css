@@ -68,7 +68,7 @@ body {
       body article.over .container figure {
         grid-column: 2/3;
         grid-row: 2/3;
-        background-image: url(../imgs/evakarelse2.jpg);
+        background-image: url(../imgs/evafoto.jpeg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
