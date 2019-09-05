@@ -98,7 +98,7 @@ body {
       transform: translateY(-10px); }
     body section a:nth-of-type(1) {
       background-position: top;
-      background-image: url(./clubberMockup1.jpg);
+      background-image: url(./werk_Delihome.png);
       margin-left: 0; }
     body section a:nth-of-type(2) {
       background-image: url(../imgs/magazineWerk.jpg);
@@ -125,7 +125,7 @@ body {
       background-color: black;
       height: 400px;
       width: auto;
-      background-image: url(./clubberMockup1.jpg);
+      background-image: url(./werk_Delihome.png);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
