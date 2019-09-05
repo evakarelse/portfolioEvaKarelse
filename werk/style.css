@@ -101,7 +101,7 @@ body {
       background-image: url(./werk_Delihome.png);
       margin-left: 0; }
     body section a:nth-of-type(2) {
-      background-image: url(../imgs/magazineWerk.jpg);
+      background-image: url(../imgs/banner_kookboek_overzicht.png);
       margin-right: 0; }
     body section a:nth-of-type(3) {
       background-position: right;
@@ -131,7 +131,7 @@ body {
       background-repeat: no-repeat;
       background-color: white; }
     body main figure#graphicDesign {
-      background-image: url(../imgs/graphicDesignBanner.jpg);
+      background-image: url(../imgs/banner_kookboek_overzicht.png);
       background-position: right; }
     body main aside {
       animation: fadeInRight 800ms;
